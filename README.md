@@ -7,9 +7,9 @@ After compiling the project correctly on your computer, you can run it as the fo
 Take HF001 for example. 
 ```
     roslaunch lego_loam run.launch
-    rosbag play YOUR_PATH_TO_DATASET/hf001.bag --topic /velodyne_points_HDL32 /imu/data
+    rosbag play YOUR_PATH_TO_DATASET/hf001.bag --topic /velodyne_points_HDL32
 ```
-subscribe topic "/velodyne_points_HDL32" of Velodyne HDL-32E Lidar and "/imu/data"
+subscribe topic "/velodyne_points_HDL32" of Velodyne HDL-32E Lidar
 for Velodyne VLP-32 Lidar change the topic to "/velodyne_points_VLP32"
 
 *If you use the USTC FLICAR dataset in your work, please cite our work using the BibTex code on the dataset [website](https://ustc-flicar.github.io/). Please also cite LeGO-LOAM publications below.*
